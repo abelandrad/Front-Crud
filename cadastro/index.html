@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1 style = "text-align: center; color: white;">Cadastro de Cliente</h1>
+  <section>
+    <div class="form-container hidden" id="cadastroFormContainer">
+      <form id="cadastroClienteForm">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="etnia">Etnia:</label>
+    <input type="text" id="etnia" name="etnia" required><br>
+
+    <label for="genero">Gênero:</label>
+    <select id="genero" name="genero" required>
+      <option value="masculino">Masculino</option>
+      <option value="feminino">Feminino</option>
+      <option value="outro">Outro</option>
+    </select><br>
+
+    <label for="cep">CEP:</label>
+    <input type="text" id="cep" name="cep" required><br>
+
+    <button type="submit">Cadastrar</button>
+
+    <button> <a href="/consulta/consulta.html">Consultar Clientes</a> </button>
+  </form>
+</div>
+</section>
+
+
+
+
+</body>
+
+    <script src="/cadastro/script.js"></script>
+    <script src="/triangulo.js"></script>
+</html>
